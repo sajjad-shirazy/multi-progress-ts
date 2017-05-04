@@ -2,7 +2,7 @@
 A Typescript wrapper for https://github.com/pitaj/multi-progress 
 
 
-##Installation
+#Installation
 ```
 npm install multi-progress-ts --save
 ```

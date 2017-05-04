@@ -4,7 +4,7 @@ const colors = require("colors/safe");
 const Multiprogress = require("multi-progress");
 class ProgressBar {
     constructor(content, color, options) {
-        this.handler = ProgressBar.stack.newBar(colors[color]('hello'), options);
+        this.handler = ProgressBar.stack.newBar(colors[color](content), options);
     }
     tick(value, options) {
         this.handler.tick(value, options);

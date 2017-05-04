@@ -1,5 +1,6 @@
 node_modules/
 .vscode/
+src/
 gulpfile.js
 run.cmd
 npm-debug.log

@@ -12,7 +12,7 @@ export class ProgressBar {
      */
     private handler;
     constructor(content: string, color: string, options: { width: number, total: number }) {
-        this.handler = ProgressBar.stack.newBar(colors[color]('hello'), options);
+        this.handler = ProgressBar.stack.newBar(colors[color](content), options);
     }
 
     tick(value: number, options?: any) {

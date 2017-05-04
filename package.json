@@ -1,7 +1,7 @@
 {
   "name": "multi-progress-ts",
   "description": "A Typescript wrapper for https://github.com/pitaj/multi-progress",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/main.js",
   "typings": "dist/main",
   "scripts": {

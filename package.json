@@ -3,6 +3,7 @@
   "description": "A Typescript wrapper for https://github.com/pitaj/multi-progress",
   "version": "1.0.1",
   "main": "dist/main.js",
+  "typings": "dist/main",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1,0 +1,30 @@
+{
+  "name": "multi-progress-ts",
+  "description": "A Typescript wrapper for https://github.com/pitaj/multi-progress",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajjad-shirazy/multi-progress-ts.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sajjad-shirazy/multi-progress-ts/issues"
+  },
+  "homepage": "https://github.com/sajjad-shirazy/multi-progress-ts#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-tsb": "^2.0.3",
+    "typescript": "^2.3.2"
+  },
+  "dependencies": {
+    "@types/node": "^7.0.16",
+    "colors": "^1.1.2",
+    "multi-progress": "^2.0.0"
+  }
+}

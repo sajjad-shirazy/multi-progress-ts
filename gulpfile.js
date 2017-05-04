@@ -10,6 +10,7 @@ var sources = [
 var output = 'dist/';
 
 var compilerOptions = require("./tsconfig.json").compilerOptions;
+compilerOptions.sourceRoot = `${__dirname}/src`;
 var compiler = tsb.create(compilerOptions, false, false, console.error);
 
 gulp.task('clean', () => del([output]));
